@@ -1,0 +1,219 @@
+body {
+    background-color: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+button {
+    outline: none;
+}
+
+#head {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 40px;
+    padding: 10px 30px;
+}
+
+#intuit-logo {
+    width: 118px;
+    height: 35px;
+    margin: 20px 0;
+}
+
+#sign-in-btn,
+#create-acc-btn  {
+    border: 1px solid #000;
+    font-size: 13.5px;
+    padding: 0 20px;
+    height: 34px;
+    width: 109px;
+    background-color: #0077c5;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#forgot-data {
+    color: #0077c5;
+}
+
+#head-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-info {
+    text-align: center;
+}
+
+#content {
+    width: 320px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+}
+
+h1 {
+    color: #393a3d;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.1;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#main-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+}
+
+#learn-more{
+    color: #0077c5;
+}
+
+form{   
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 30px;
+    padding-bottom: 6px;
+    color: #404040;
+}
+
+input {
+    height: 34px;
+    padding: 0 6px 0 8px;
+    border: 1px solid #C1C5C8;
+    outline: none;
+    border-radius: 3px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+#phone-data {
+    font-size: 10px;
+    padding: 5px 0;
+    align-self: flex-start;
+}
+
+#create-acc-btn {
+    margin: 30px 0 20px 0;
+    border: none;
+    height: 44px;
+    width: 318px;
+    padding: 6px 12px;
+    align-self: center;
+    font-size: 15.57px;
+}
+
+#terms {
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+}
+
+#captcha-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #8d9096;
+    padding: 16px;
+    background-color: #ECEEF1;
+    height: 20px;
+    margin: 32px -30px -30px -30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+
+span {
+    display: inline-block;
+    align-self: center;
+}
+
+a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.page-btn {
+    border: none;
+    font-size: 18px;
+    color: #505050;
+    margin-bottom: 15px;
+}
+
+#services-logos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    height: 23px;
+    margin-right: 4px;
+}
+
+.service-logo {
+    width: 23px;
+    margin-right: 4px;
+}
+
+.service-name {
+    height: 20px;
+}
+
+#privacy-container {
+    background: white;
+    
+    height: 45px;
+    padding: 30px 0 0 20px ;
+    margin-bottom: 20px;
+}
+
+#privacy-container a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
